@@ -107,7 +107,7 @@ class SSA(object):
         self.R = np.matrix(self.R / (1 - self.verticality_coefficient))
         self.X_com_tilde = self.diagonal_averaging(self.X_com_hat)
 
-    def forecast_recurrent(self, steps_ahead=12, singular_values=None):
+    def forecast(self, steps_ahead=12, singular_values=None):
         '''Forecast using recurrent methodology'''
         try:
             self.X_com_hat
