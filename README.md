@@ -30,11 +30,11 @@ This Python class provides an implementation of the Singular Spectrum Analysis (
 4. **Gap Filling**:
     If your time series has missing values, you can fill them using:
     ``` python
-    ssa.forecast_recurrent(steps_ahead=0)
+    ssa.forecast(steps_ahead=0)
     ```
 
 5. **Forecasting**:
     Predict future values of your time series by specifying the number of steps ahead you want to forecast.
     ``` python
-    ssa.forecast_recurrent(steps_ahead=number_of_steps)
+    ssa.forecast(steps_ahead=number_of_steps)
     ```
