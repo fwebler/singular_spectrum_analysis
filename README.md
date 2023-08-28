@@ -1,7 +1,3 @@
-### README:
-
----
-
 ## Singular Spectrum Analysis (SSA) for Time Series
 
 This Python class provides an implementation of the Singular Spectrum Analysis (SSA) for time series gap filling and forecasting.
